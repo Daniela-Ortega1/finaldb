@@ -25,7 +25,7 @@ Aquí se organizarán las actividades realizadas en las 14 plataformas, así com
 ---
 
 Autora:  
-**Daniela Ortega Cabiche**  
+**Daniela Ortega Caviche**  
 Ingeniería de Sistemas y Telecomunicaciones  
 Universidad de Manizales
 
