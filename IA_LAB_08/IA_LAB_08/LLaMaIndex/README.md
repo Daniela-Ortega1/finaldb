@@ -68,7 +68,7 @@ Este enfoque permite ilustrar el concepto de RAG aplicado al proyecto MORITA inc
 
 ## Limitaciones
 
-- La base de conocimiento se define con textos internos en lugar de leer PDFs reales.
+- La base de conocimiento se define con textos internos tambien ya que no se pueden leer todos los PDFs.
 - No se utilizan embeddings ni índices vectoriales por restricciones del entorno.
 - Aun así, el notebook cumple la función académica de demostrar un flujo básico tipo RAG para el proyecto MORITA dentro del laboratorio.
 
