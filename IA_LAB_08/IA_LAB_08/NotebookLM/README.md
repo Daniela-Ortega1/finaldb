@@ -1,52 +1,64 @@
-# NotebookLM — Evidencias del Laboratorio 8 (IA)
+# Google AI Studio — Evidencias del Laboratorio 8 (IA)
 
-Este directorio contiene las evidencias correspondientes al Punto 2 del Laboratorio 8 – Uso de Notebooks Inteligentes con Google NotebookLM.  
-El propósito fue analizar un documento técnico del proyecto MORITA utilizando las capacidades de razonamiento del modelo y evaluar la calidad de sus respuestas.
-
----
-
-## 1. Documento cargado
-
-Se cargó en NotebookLM el documento técnico del proyecto **MORITA: Sistema de Gestión y Producción de Pulpa de Mora**, utilizado como única fuente de conocimiento para todo el análisis.
+Este directorio contiene las evidencias correspondientes al Punto 3 del Laboratorio 8 – Ingeniería de Prompts y Prototipado con Google AI Studio (Gemini).  
+El objetivo principal fue diseñar, probar y comparar prompts profesionales usando diferentes configuraciones del modelo.
 
 ---
 
-## 2. Preguntas avanzadas realizadas al modelo
+## 1. Prompts creados
 
-El análisis incluyó 5 preguntas argumentativas basadas exclusivamente en el contenido del documento:
+Se elaboraron dos prompts con propósitos distintos, tal como solicita el laboratorio:
 
-1. ¿Cuál es el objetivo general del proyecto MORITA según el documento cargado?  
-2. ¿Qué objetivos específicos se derivan del diseño del sistema?  
-3. ¿Cómo se justifica la necesidad del sistema dentro del proceso productivo de ASMOBEL?  
-4. ¿Qué beneficios operativos se proyectan con la implementación de MORITA?  
-5. ¿Qué riesgos o limitaciones se mencionan en el texto base?
+### • Prompt técnico  
+Enfocado en análisis profesional de IA aplicado al proyecto MORITA.
 
----
-
-## 3. Resumen generado por NotebookLM
-
-NotebookLM generó un resumen estructurado del documento MORITA, destacando:
-
-- Objetivo general del sistema  
-- Problemas actuales en la operación manual  
-- Módulos funcionales principales  
-- Necesidades de trazabilidad, seguimiento y gestión interna  
-- Impacto esperado en los tiempos y costos de producción
+### • Prompt creativo  
+Diseñado para evaluar la habilidad del modelo para generar contenido imaginativo y estructurado.
 
 ---
 
-## 4. Análisis crítico de las respuestas del modelo
+## 2. Iteraciones realizadas
 
-- Las respuestas fueron **coherentes** con el documento cargado y no introdujeron información externa.  
-- El modelo identificó correctamente los objetivos generales y específicos.  
-- Algunas respuestas fueron **muy resumidas**, por lo que se validó el texto original para evitar pérdida de detalle.  
-- El modelo mantuvo **consistencia** en conceptos como trazabilidad, control de inventarios y digitalización del proceso productivo.  
-- No se detectaron sesgos ni invenciones (“alucinaciones”) en las respuestas.
+Para cada prompt se realizaron varias pruebas modificando:
+
+- **Temperatura** (0.2, 0.6, 1.0)  
+- **Top-k**  
+- **Top-p**  
+- **Contexto y formulación del prompt**
+
+Cada iteración se analizó verificando cambios en:
+
+- Coherencia  
+- Nivel de creatividad  
+- Precisión  
+- Variabilidad de la respuesta  
+- Control del estilo y del contenido generado  
+
+---
+
+## 3. Comparación de parámetros
+
+El comportamiento del modelo mostró:
+
+- **Temperatura baja (0.2):** respuestas más técnicas, estables y precisas.  
+- **Temperatura media (0.6):** equilibrio entre creatividad y control.  
+- **Temperatura alta (1.0):** respuestas más largas, variadas y con mayor riesgo de desviación.  
+- **Cambios en top-p / top-k:** modificaron la diversidad del vocabulario sin afectar directamente la estructura.
+
+---
+
+## 4. Reflexión técnica
+
+- Los parámetros de generación tienen impacto directo en el estilo y la variabilidad del texto.  
+- Prompts mejor estructurados producen respuestas más consistentes.  
+- Google AI Studio permite visualizar en tiempo real cómo afectan los cambios de parámetros al resultado.  
+- La herramienta es útil para diseñar agentes conversacionales y ajustar comportamiento de modelos generativos.
 
 ---
 
 ## 5. Evidencias
 
-Las capturas del proceso de NotebookLM se encuentran anexadas en el informe general del laboratorio.  
-(Según las instrucciones, no es obligatorio subirlas aquí.)
+Las capturas del proceso (prompts, iteraciones y comparaciones) se encuentran incluidas en el informe general del laboratorio.  
+(No es obligatorio subirlas aquí según la guía oficial.)
 
+---
