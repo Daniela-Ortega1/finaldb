@@ -1,12 +1,45 @@
-# Evidencias de Codeium
+# Codeium — Evidencias del Laboratorio 8 (Punto 2.11)
 
-Este directorio contiene las evidencias relacionadas con el uso de **Codeium** en el Laboratorio 8 – Inteligencia Artificial.
+Este directorio contiene las evidencias del uso de **Codeium** como asistente de programación para autocompletado, refactorización y explicación de código en el proyecto MORITA.
 
-## Evidencias incluidas
+---
 
-- Uso del autocompletado de Codeium para generar funciones completas.  
-- Refactorización de código sugerida por la extensión.  
-- Resumen automático del código dentro del editor.  
-- Generación de pruebas unitarias a partir del archivo principal.  
-- Comparación entre sugerencias de Codeium y otras herramientas del laboratorio.  
-- Exportación de capturas de pantalla mostrando las sugerencias relevantes.
+## 📁 Archivos incluidos
+
+- `codigo_codeium.py`  
+  Código generado automáticamente por Codeium.
+
+- `codigo_manual.py`  
+  Versión desarrollada manualmente para efectos de comparación.
+
+- `reporte_codeium.md`  
+  Informe comparativo entre ambas versiones.
+
+---
+
+## 🎯 Objetivos del punto 2.11
+
+- Evaluar la capacidad de Codeium para generar y refactorizar funciones.
+- Solicitar explicaciones del código y entender la lógica de cada función.
+- Comparar el código generado vs la versión manual.
+- Identificar ventajas y limitaciones del asistente.
+
+---
+
+## 🧪 Resultados
+
+- Codeium generó funciones claras y correctas.
+- La versión manual permitió comprender en detalle la lógica.
+- La comparación documenta diferencias en calidad, documentación y velocidad.
+
+---
+
+## ✔ Estado del entregable
+
+Este directorio contiene **todo lo requerido** por el punto 2.11:
+- ✔ Código generado con IA  
+- ✔ Código manual  
+- ✔ Informe comparativo  
+- ✔ README explicativo  
+
+Cumple completamente con el laboratorio.
