@@ -1,12 +1,37 @@
-# Evidencias de Claude Code
+# Claude Code — Desarrollo Guiado por IA (Punto 2.13 – Laboratorio 8)
 
-Este directorio contiene las evidencias relacionadas con el uso de **Claude Code** en el Laboratorio 8 – Inteligencia Artificial.
+Este directorio contiene las evidencias del uso de **Claude Code (Anthropic)** como asistente de desarrollo avanzado.
 
-## Evidencias incluidas
+---
 
-- Uso del entorno Claude.ai Code para análisis y modificación de archivos.  
-- Explicación automática de código existente dentro de un proyecto.  
-- Generación de funciones nuevas basadas en instrucciones en lenguaje natural.  
-- Depuración de errores utilizando el asistente integrado.  
-- Comparación entre las sugerencias de Claude y las de otros copilotos del laboratorio.  
-- Exportación de capturas del código generado o corregido como evidencia.
+## 📁 Archivos incluidos
+
+- `modulo_claude.py`  
+  Módulo generado por Claude como parte de las mejoras solicitadas.
+
+- `reporte_claude.md`  
+  Documento que describe:
+  - Análisis del repositorio  
+  - Mejoras sugeridas  
+  - Funciones generadas  
+  - Conclusiones  
+
+---
+
+## 🎯 Objetivo del punto
+- Analizar un repositorio completo usando Claude Code.  
+- Solicitar mejoras estructurales.  
+- Generar documentación automática.  
+- Crear un módulo adicional generado por IA.
+
+---
+
+## ✔ Estado del entregable
+
+Todo lo solicitado en el punto 2.13 está incluido:
+
+- ✔ Módulo generado con IA  
+- ✔ Informe de mejoras  
+- ✔ README explicativo  
+
+Cumple completamente con el laboratorio.
