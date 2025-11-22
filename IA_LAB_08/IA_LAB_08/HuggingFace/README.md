@@ -43,10 +43,3 @@ El objetivo de este punto fue:
 - Subir todas las evidencias al repositorio GitHub.
 
 ---
-
-## Estado del entregable
-
-✔ Notebook ejecutado  
-✔ Código del Space  
-✔ Archivo de dependencias  
-✔ Carpeta documentada  
